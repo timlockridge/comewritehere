@@ -1,0 +1,37 @@
+* {
+	font-family: Baskerville, Garamond, 'Times New Roman', serif;
+	line-height: 1.5em;
+}
+
+p.page-break {
+page-break-after: always;
+}
+
+h1, h2 {
+  line-height: 1.0em;
+}
+
+blockquote {
+  border-left: 2px solid gray;
+  padding-left: 15px;
+  font-style: italic;
+}
+
+figcaption {
+  display: none;
+}
+
+#childhood h2, #young-adulthood h2, #adulthood h2 {
+	color: rgb(68,85,63);
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgb(75,91,69);
+}
+
+a.footnote-ref {
+	vertical-align: super;
+	font-size: 80%
+}
+
+.footnotes ol li {
+	font-size: 60%;
+}
